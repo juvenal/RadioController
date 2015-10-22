@@ -1,3 +1,4 @@
 # RadioController
 
-A Wifi AP Radio Controller for large distributed networks...
+A centralized controller for multiple Wi-fi access points running OpenWRT or RouterOS. Its intent is to optimize operation of multiple overlaping access-points and centralized management of them.
+
