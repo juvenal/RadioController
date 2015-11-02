@@ -3,7 +3,7 @@
 #
 #
 
-class APInfo:
+class APInfo(object):
 	"""..."""
 	
 	# Protected members
@@ -25,7 +25,8 @@ class APInfo:
 
 	# Class initialization
 	def __init__(self):
-		#
+		# Run super class initialization
+		super(APInfo, self).__init__()
 
 	# Set the AP transmission power (Tx)
 	def updateTxPowerIndex(self, newTxPower):
